@@ -1,3 +1,7 @@
 #Icon Smile Pure CSS
 
-##DEOM: http://jeftar.bl.ee/web-components
+> This Smile made with pure CSS is just an example, as was done when I was studying web components.
+
+## DEMO
+http://jeftar.bl.ee/web-components
+
