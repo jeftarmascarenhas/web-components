@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;}
+
+list-user{background: #222; width: 200px; height: 50px;}
+
+/*===========================
+Smile
+==============================*/
+.smile{background: #ECE413; width: 200px; height: 200px; margin: 10px 10px; border-radius: 50%; position: relative; border: 6px solid #222;
+  top:-340px;
+  left:450px;
+ 
+}
+	.smile:before{content: ""; border-radius: 50%; width: 35px; height: 35px; background: #222; position: absolute; top: 60px; left: 45px;
+}
+	.smile:after{content: ""; border-radius: 50%; width: 35px; height: 35px; background: #222; position: absolute; top: 60px; right	: 45px;
+}
+
+/***********************
+Boca do Smalle
+************************/
+.boca{border-radius: 100%; width: 145px; height: 161px; border-right: 11px solid #222;
+	  position: absolute; bottom: 20px; right: 20px; -webkit-transform:rotate(90deg); 
+-webkit-transition: all .25s linear;
+-moz-transform:rotate(90deg); 
+-moz-transition: all .25s linear;
+-ms-transform:rotate(90deg); 
+-ms-transition: all .25s linear;
+	}
+
+	.boca:hover{border-right: 31px solid #222; right: 12px;}
